@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="RegistracijaTest">
+        <methods>
+          <include name="test09RegistracijaLozinkaPocinjeSpecijalnimZnakom"/>
+          <include name="test21RegistracijaGodinaStudijaManjaOd1"/>
+          <include name="test54RegistracijaKompanijeNeuspesnaBrojZaposlenihManjiOd1"/>
+          <include name="test80RegistracijaNeuspesnaPrezimeSadrziBrojeve"/>
+          <include name="test06RegistracijaBezCifre"/>
+          <include name="tearDown"/>
+          <include name="test27RegistracijaTelefonSlova"/>
+          <include name="test25RegistracijaSlikaPremala"/>
+          <include name="test15RegistracijaEmailBezTacke"/>
+          <include name="test56RegistracijaKompanijeNeuspesnaSpecijalnostSpecijalniKarakteri"/>
+          <include name="test10RegistracijaLozinkaDvaUzastopnaIstaZnaka"/>
+          <include name="test79RegistracijaNeuspesnaImeSadrziBrojeve"/>
+          <include name="goToHomePage"/>
+          <include name="test22RegistracijaGodinaStudijaVecaOd4"/>
+          <include name="test85RegistracijaNeuspesnaLozinkeNisuIste"/>
+          <include name="test08RegistracijaLozinkaPocinjeCifrom"/>
+          <include name="test05RegistracijaManjeOdTriMalaSlova"/>
+          <include name="test26RegistracijaTelefonNedozvoljenZnak"/>
+          <include name="test50RegistracijaKompanijeNeuspesnaPIBSlovo"/>
+          <include name="test55RegistracijaKompanijeNeuspesnaVebSajtSpecijalniKarakter"/>
+          <include name="test24RegistracijaSlikaPrevelika"/>
+          <include name="test04RegistracijaLozinkaBezVelikogSlova"/>
+          <include name="returnToHomePage"/>
+          <include name="test03RegistracijaLozinkaPreduga"/>
+          <include name="test07RegistracijaBezSpecijalnogZnaka"/>
+          <include name="test51RegistracijaKompanijeNeuspesnaPIBSpecijalniKarakter"/>
+          <include name="setUp"/>
+          <include name="test02RegistracijaLozinkaPrekratka"/>
+        </methods>
+      </class> <!-- RegistracijaTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

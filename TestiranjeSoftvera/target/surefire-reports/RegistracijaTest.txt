@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: RegistracijaTest
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 24, Errors: 0, Skipped: 0, Time elapsed: 35.528 s <<< FAILURE! - in RegistracijaTest
+test02RegistracijaLozinkaPrekratka(RegistracijaTest)  Time elapsed: 1.001 s  <<< FAILURE!
+java.lang.AssertionError: TEST02 LOZINKA PREKRATKA - FAILED
+	at RegistracijaTest.test02RegistracijaLozinkaPrekratka(RegistracijaTest.java:98)
+
+test03RegistracijaLozinkaPreduga(RegistracijaTest)  Time elapsed: 0.952 s  <<< FAILURE!
+java.lang.AssertionError: TEST03 LOZINKA PREDUGA - FAILED
+	at RegistracijaTest.test03RegistracijaLozinkaPreduga(RegistracijaTest.java:134)
+
+test04RegistracijaLozinkaBezVelikogSlova(RegistracijaTest)  Time elapsed: 0.861 s  <<< FAILURE!
+java.lang.AssertionError: TEST04 LOZINKA BEZ VELIKOG SLOVA - FAILED
+	at RegistracijaTest.test04RegistracijaLozinkaBezVelikogSlova(RegistracijaTest.java:170)
+
+test05RegistracijaManjeOdTriMalaSlova(RegistracijaTest)  Time elapsed: 0.769 s  <<< FAILURE!
+java.lang.AssertionError: TEST05 MANJE OD TRI MALA SLOVA - FAILED
+	at RegistracijaTest.test05RegistracijaManjeOdTriMalaSlova(RegistracijaTest.java:205)
+
+test06RegistracijaBezCifre(RegistracijaTest)  Time elapsed: 0.775 s  <<< FAILURE!
+java.lang.AssertionError: TEST06 BEZ CIFRE U LOZINCI - FAILED
+	at RegistracijaTest.test06RegistracijaBezCifre(RegistracijaTest.java:241)
+
+test07RegistracijaBezSpecijalnogZnaka(RegistracijaTest)  Time elapsed: 0.754 s  <<< FAILURE!
+java.lang.AssertionError: TEST07 BEZ SPECIJALNOG ZNAKA - FAILED
+	at RegistracijaTest.test07RegistracijaBezSpecijalnogZnaka(RegistracijaTest.java:278)
+
+test08RegistracijaLozinkaPocinjeCifrom(RegistracijaTest)  Time elapsed: 0.732 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at RegistracijaTest.test08RegistracijaLozinkaPocinjeCifrom(RegistracijaTest.java:315)
+
+test09RegistracijaLozinkaPocinjeSpecijalnimZnakom(RegistracijaTest)  Time elapsed: 0.719 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at RegistracijaTest.test09RegistracijaLozinkaPocinjeSpecijalnimZnakom(RegistracijaTest.java:351)
+
+test10RegistracijaLozinkaDvaUzastopnaIstaZnaka(RegistracijaTest)  Time elapsed: 0.799 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at RegistracijaTest.test10RegistracijaLozinkaDvaUzastopnaIstaZnaka(RegistracijaTest.java:386)
+
+test15RegistracijaEmailBezTacke(RegistracijaTest)  Time elapsed: 0.691 s  <<< FAILURE!
+java.lang.AssertionError: TEST15 EMAIL BEZ TACKE - FAILED
+	at RegistracijaTest.test15RegistracijaEmailBezTacke(RegistracijaTest.java:457)
+
+test21RegistracijaGodinaStudijaManjaOd1(RegistracijaTest)  Time elapsed: 0.711 s  <<< FAILURE!
+java.lang.AssertionError: TEST21 GODINA STUDIJA < 1 - FAILED
+	at RegistracijaTest.test21RegistracijaGodinaStudijaManjaOd1(RegistracijaTest.java:492)
+
+test22RegistracijaGodinaStudijaVecaOd4(RegistracijaTest)  Time elapsed: 0.732 s  <<< FAILURE!
+java.lang.AssertionError: TEST22 GODINA STUDIJA > 4 - FAILED
+	at RegistracijaTest.test22RegistracijaGodinaStudijaVecaOd4(RegistracijaTest.java:527)
+
+test24RegistracijaSlikaPrevelika(RegistracijaTest)  Time elapsed: 0.749 s  <<< FAILURE!
+java.lang.AssertionError: TEST24 SLIKA PREVELIKA - FAILED
+	at RegistracijaTest.test24RegistracijaSlikaPrevelika(RegistracijaTest.java:563)
+
+test25RegistracijaSlikaPremala(RegistracijaTest)  Time elapsed: 0.704 s  <<< FAILURE!
+java.lang.AssertionError: TEST25 SLIKA PREMALA - FAILED
+	at RegistracijaTest.test25RegistracijaSlikaPremala(RegistracijaTest.java:599)
+
+test26RegistracijaTelefonNedozvoljenZnak(RegistracijaTest)  Time elapsed: 0.721 s  <<< FAILURE!
+java.lang.AssertionError: TEST26 TELEFON NEDOZVOLJEN ZNAK - FAILED
+	at RegistracijaTest.test26RegistracijaTelefonNedozvoljenZnak(RegistracijaTest.java:636)
+
+test27RegistracijaTelefonSlova(RegistracijaTest)  Time elapsed: 0.71 s  <<< FAILURE!
+java.lang.AssertionError: TEST27 TELEFON SLOVA - FAILED
+	at RegistracijaTest.test27RegistracijaTelefonSlova(RegistracijaTest.java:673)
+
+test50RegistracijaKompanijeNeuspesnaPIBSlovo(RegistracijaTest)  Time elapsed: 0.897 s  <<< FAILURE!
+java.lang.AssertionError: TEST50 PIB SLOVO - FAILED
+	at RegistracijaTest.test50RegistracijaKompanijeNeuspesnaPIBSlovo(RegistracijaTest.java:802)
+
+test51RegistracijaKompanijeNeuspesnaPIBSpecijalniKarakter(RegistracijaTest)  Time elapsed: 0.951 s  <<< FAILURE!
+java.lang.AssertionError: TEST51 PIB SPECIJALNI KARAKTER - FAILED
+	at RegistracijaTest.test51RegistracijaKompanijeNeuspesnaPIBSpecijalniKarakter(RegistracijaTest.java:846)
+
+test54RegistracijaKompanijeNeuspesnaBrojZaposlenihManjiOd1(RegistracijaTest)  Time elapsed: 0.822 s  <<< FAILURE!
+java.lang.AssertionError: TEST54 BROJ ZAPOSLENIH - FAILED
+	at RegistracijaTest.test54RegistracijaKompanijeNeuspesnaBrojZaposlenihManjiOd1(RegistracijaTest.java:890)
+
+test55RegistracijaKompanijeNeuspesnaVebSajtSpecijalniKarakter(RegistracijaTest)  Time elapsed: 0.825 s  <<< FAILURE!
+java.lang.AssertionError: TEST55 VEB SAJT SPECIJALNI KARAKTER - FAILED
+	at RegistracijaTest.test55RegistracijaKompanijeNeuspesnaVebSajtSpecijalniKarakter(RegistracijaTest.java:934)
+
+test56RegistracijaKompanijeNeuspesnaSpecijalnostSpecijalniKarakteri(RegistracijaTest)  Time elapsed: 0.863 s  <<< FAILURE!
+java.lang.AssertionError: TEST56 UZA SPECIJALNOST SPECIJALNI KARAKTERI - FAILED
+	at RegistracijaTest.test56RegistracijaKompanijeNeuspesnaSpecijalnostSpecijalniKarakteri(RegistracijaTest.java:979)
+
+test79RegistracijaNeuspesnaImeSadrziBrojeve(RegistracijaTest)  Time elapsed: 0.649 s  <<< FAILURE!
+java.lang.AssertionError: TEST79 IME SADRZI BROJEVE - FAILED
+	at RegistracijaTest.test79RegistracijaNeuspesnaImeSadrziBrojeve(RegistracijaTest.java:1059)
+
+test80RegistracijaNeuspesnaPrezimeSadrziBrojeve(RegistracijaTest)  Time elapsed: 0.683 s  <<< FAILURE!
+java.lang.AssertionError: TEST80 PREZIME SADRZI BROJEVE - FAILED
+	at RegistracijaTest.test80RegistracijaNeuspesnaPrezimeSadrziBrojeve(RegistracijaTest.java:1099)
+
+test85RegistracijaNeuspesnaLozinkeNisuIste(RegistracijaTest)  Time elapsed: 0.671 s  <<< FAILURE!
+java.lang.AssertionError: TEST85 LOZINKE NISU ISTE - FAILED
+	at RegistracijaTest.test85RegistracijaNeuspesnaLozinkeNisuIste(RegistracijaTest.java:1019)
+

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RegistracijaTest" time="35.528" tests="28" errors="0" skipped="0" failures="24">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\Win 11\Desktop\DZ1\TestiranjeSoftvera\target\test-classes;C:\Users\Win 11\Desktop\DZ1\TestiranjeSoftvera\target\classes;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\Win 11\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\Win 11\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\Win 11\.m2\repository\org\testng\testng\6.8.1\testng-6.8.1.jar;C:\Users\Win 11\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Win 11\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Win 11\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Win 11\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Win 11\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\Win 11\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Win 11\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Win 11\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Win 11\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Win 11\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Win 11\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Win 11\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Win 11\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="user.country.format" value="BA"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\WIN11~1\AppData\Local\Temp\surefire1465189860403045485\surefirebooter8499323235669462168.jar C:\Users\Win 11\AppData\Local\Temp\surefire1465189860403045485 2025-09-13T22-50-43_262-jvmRun1 surefire15616645283779222835tmp surefire_016822878497516099398tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="RegistracijaTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\Win 11\Desktop\DZ1\TestiranjeSoftvera\target\test-classes;C:\Users\Win 11\Desktop\DZ1\TestiranjeSoftvera\target\classes;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\Win 11\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\Win 11\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\Win 11\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\Win 11\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\Win 11\.m2\repository\org\testng\testng\6.8.1\testng-6.8.1.jar;C:\Users\Win 11\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Win 11\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Win 11\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Win 11\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Win 11\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Win 11\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\Win 11\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Win 11\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Win 11\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Win 11\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Win 11\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Win 11\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Win 11\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Win 11\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Win 11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Win 11\Desktop\DZ1\TestiranjeSoftvera"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\WIN11~1\AppData\Local\Temp\surefire1465189860403045485\surefirebooter8499323235669462168.jar"/>
+    <property name="user.script" value=""/>
+    <property name="user.script.format" value="Latn"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="Win 11"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Win 11\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\WIN11~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="C:\Users\Win 11\Desktop\DZ1\TestiranjeSoftvera"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sr"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Java\jdk-1.8\bin;C:\Program Files\MATLAB\R2025a\bin;C:\Users\Win 11\AppData\Local\Programs\Python\Launcher\;C:\Users\Win 11\AppData\Local\Microsoft\WindowsApps;C:\Users\Win 11\AppData\Roaming\npm;C:\Users\Win 11\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test01RegistracijaIspravna" classname="RegistracijaTest" time="1.354"/>
+  <testcase name="test02RegistracijaLozinkaPrekratka" classname="RegistracijaTest" time="1.001">
+    <failure message="TEST02 LOZINKA PREKRATKA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST02 LOZINKA PREKRATKA - FAILED
+	at RegistracijaTest.test02RegistracijaLozinkaPrekratka(RegistracijaTest.java:98)
+</failure>
+    <system-out><![CDATA[TEST02 LOZINKA PREKRATKA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test03RegistracijaLozinkaPreduga" classname="RegistracijaTest" time="0.952">
+    <failure message="TEST03 LOZINKA PREDUGA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST03 LOZINKA PREDUGA - FAILED
+	at RegistracijaTest.test03RegistracijaLozinkaPreduga(RegistracijaTest.java:134)
+</failure>
+    <system-out><![CDATA[TEST03 LOZINKA PREDUGA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test04RegistracijaLozinkaBezVelikogSlova" classname="RegistracijaTest" time="0.861">
+    <failure message="TEST04 LOZINKA BEZ VELIKOG SLOVA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST04 LOZINKA BEZ VELIKOG SLOVA - FAILED
+	at RegistracijaTest.test04RegistracijaLozinkaBezVelikogSlova(RegistracijaTest.java:170)
+</failure>
+    <system-out><![CDATA[TEST04 LOZINKA BEZ VELIKOG SLOVA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test05RegistracijaManjeOdTriMalaSlova" classname="RegistracijaTest" time="0.769">
+    <failure message="TEST05 MANJE OD TRI MALA SLOVA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST05 MANJE OD TRI MALA SLOVA - FAILED
+	at RegistracijaTest.test05RegistracijaManjeOdTriMalaSlova(RegistracijaTest.java:205)
+</failure>
+    <system-out><![CDATA[TEST05 MANJE OD TRI MALA SLOVA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test06RegistracijaBezCifre" classname="RegistracijaTest" time="0.775">
+    <failure message="TEST06 BEZ CIFRE U LOZINCI - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST06 BEZ CIFRE U LOZINCI - FAILED
+	at RegistracijaTest.test06RegistracijaBezCifre(RegistracijaTest.java:241)
+</failure>
+    <system-out><![CDATA[TEST06 BEZ CIFRE U LOZINCI - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test07RegistracijaBezSpecijalnogZnaka" classname="RegistracijaTest" time="0.754">
+    <failure message="TEST07 BEZ SPECIJALNOG ZNAKA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST07 BEZ SPECIJALNOG ZNAKA - FAILED
+	at RegistracijaTest.test07RegistracijaBezSpecijalnogZnaka(RegistracijaTest.java:278)
+</failure>
+    <system-out><![CDATA[TEST07 BEZ SPECIJALNOG ZNAKA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test08RegistracijaLozinkaPocinjeCifrom" classname="RegistracijaTest" time="0.732">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at RegistracijaTest.test08RegistracijaLozinkaPocinjeCifrom(RegistracijaTest.java:315)
+</failure>
+    <system-out><![CDATA[TEST08 LOZINKA POCINJE CIFROM - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test09RegistracijaLozinkaPocinjeSpecijalnimZnakom" classname="RegistracijaTest" time="0.719">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at RegistracijaTest.test09RegistracijaLozinkaPocinjeSpecijalnimZnakom(RegistracijaTest.java:351)
+</failure>
+    <system-out><![CDATA[TEST09 LOZINKA POCINJE SPECIJALNIM ZNAKOM - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test10RegistracijaLozinkaDvaUzastopnaIstaZnaka" classname="RegistracijaTest" time="0.799">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at RegistracijaTest.test10RegistracijaLozinkaDvaUzastopnaIstaZnaka(RegistracijaTest.java:386)
+</failure>
+    <system-out><![CDATA[TEST10 DVA ISTA UZASTOPNA ZNAKA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test11RegistracijaKorisnickoImeVecPostoji" classname="RegistracijaTest" time="0.749"/>
+  <testcase name="test15RegistracijaEmailBezTacke" classname="RegistracijaTest" time="0.691">
+    <failure message="TEST15 EMAIL BEZ TACKE - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST15 EMAIL BEZ TACKE - FAILED
+	at RegistracijaTest.test15RegistracijaEmailBezTacke(RegistracijaTest.java:457)
+</failure>
+    <system-out><![CDATA[TEST15 EMAIL BEZ TACKE - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test21RegistracijaGodinaStudijaManjaOd1" classname="RegistracijaTest" time="0.711">
+    <failure message="TEST21 GODINA STUDIJA &lt; 1 - FAILED" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: TEST21 GODINA STUDIJA < 1 - FAILED
+	at RegistracijaTest.test21RegistracijaGodinaStudijaManjaOd1(RegistracijaTest.java:492)
+]]></failure>
+    <system-out><![CDATA[TEST21 GODINA STUDIJA < 1 - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test22RegistracijaGodinaStudijaVecaOd4" classname="RegistracijaTest" time="0.732">
+    <failure message="TEST22 GODINA STUDIJA &gt; 4 - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST22 GODINA STUDIJA > 4 - FAILED
+	at RegistracijaTest.test22RegistracijaGodinaStudijaVecaOd4(RegistracijaTest.java:527)
+</failure>
+    <system-out><![CDATA[TEST22 GODINA STUDIJA > 4 - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test24RegistracijaSlikaPrevelika" classname="RegistracijaTest" time="0.749">
+    <failure message="TEST24 SLIKA PREVELIKA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST24 SLIKA PREVELIKA - FAILED
+	at RegistracijaTest.test24RegistracijaSlikaPrevelika(RegistracijaTest.java:563)
+</failure>
+    <system-out><![CDATA[TEST24 SLIKA PREVELIKA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test25RegistracijaSlikaPremala" classname="RegistracijaTest" time="0.704">
+    <failure message="TEST25 SLIKA PREMALA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST25 SLIKA PREMALA - FAILED
+	at RegistracijaTest.test25RegistracijaSlikaPremala(RegistracijaTest.java:599)
+</failure>
+    <system-out><![CDATA[TEST25 SLIKA PREMALA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test26RegistracijaTelefonNedozvoljenZnak" classname="RegistracijaTest" time="0.721">
+    <failure message="TEST26 TELEFON NEDOZVOLJEN ZNAK - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST26 TELEFON NEDOZVOLJEN ZNAK - FAILED
+	at RegistracijaTest.test26RegistracijaTelefonNedozvoljenZnak(RegistracijaTest.java:636)
+</failure>
+    <system-out><![CDATA[TEST26 TELEFON NEDOZVOLJEN ZNAK - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test27RegistracijaTelefonSlova" classname="RegistracijaTest" time="0.71">
+    <failure message="TEST27 TELEFON SLOVA - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST27 TELEFON SLOVA - FAILED
+	at RegistracijaTest.test27RegistracijaTelefonSlova(RegistracijaTest.java:673)
+</failure>
+    <system-out><![CDATA[TEST27 TELEFON SLOVA - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test32RegistracijaIspravnaLozinkaPrvoMaloSlovo" classname="RegistracijaTest" time="0.703"/>
+  <testcase name="test38RegistracijaKompanijeUspesna" classname="RegistracijaTest" time="0.866"/>
+  <testcase name="test50RegistracijaKompanijeNeuspesnaPIBSlovo" classname="RegistracijaTest" time="0.897">
+    <failure message="TEST50 PIB SLOVO - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST50 PIB SLOVO - FAILED
+	at RegistracijaTest.test50RegistracijaKompanijeNeuspesnaPIBSlovo(RegistracijaTest.java:802)
+</failure>
+    <system-out><![CDATA[TEST50 PIB SLOVO - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test51RegistracijaKompanijeNeuspesnaPIBSpecijalniKarakter" classname="RegistracijaTest" time="0.951">
+    <failure message="TEST51 PIB SPECIJALNI KARAKTER - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST51 PIB SPECIJALNI KARAKTER - FAILED
+	at RegistracijaTest.test51RegistracijaKompanijeNeuspesnaPIBSpecijalniKarakter(RegistracijaTest.java:846)
+</failure>
+    <system-out><![CDATA[TEST51 PIB SPECIJALNI KARAKTER - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test54RegistracijaKompanijeNeuspesnaBrojZaposlenihManjiOd1" classname="RegistracijaTest" time="0.822">
+    <failure message="TEST54 BROJ ZAPOSLENIH - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST54 BROJ ZAPOSLENIH - FAILED
+	at RegistracijaTest.test54RegistracijaKompanijeNeuspesnaBrojZaposlenihManjiOd1(RegistracijaTest.java:890)
+</failure>
+    <system-out><![CDATA[TEST54 BROJ ZAPOSLENIH - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test55RegistracijaKompanijeNeuspesnaVebSajtSpecijalniKarakter" classname="RegistracijaTest" time="0.825">
+    <failure message="TEST55 VEB SAJT SPECIJALNI KARAKTER - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST55 VEB SAJT SPECIJALNI KARAKTER - FAILED
+	at RegistracijaTest.test55RegistracijaKompanijeNeuspesnaVebSajtSpecijalniKarakter(RegistracijaTest.java:934)
+</failure>
+    <system-out><![CDATA[TEST55 VEB SAJT SPECIJALNI KARAKTER - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test56RegistracijaKompanijeNeuspesnaSpecijalnostSpecijalniKarakteri" classname="RegistracijaTest" time="0.863">
+    <failure message="TEST56 UZA SPECIJALNOST SPECIJALNI KARAKTERI - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST56 UZA SPECIJALNOST SPECIJALNI KARAKTERI - FAILED
+	at RegistracijaTest.test56RegistracijaKompanijeNeuspesnaSpecijalnostSpecijalniKarakteri(RegistracijaTest.java:979)
+</failure>
+    <system-out><![CDATA[TEST56 UZA SPECIJALNOST SPECIJALNI KARAKTERI - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test79RegistracijaNeuspesnaImeSadrziBrojeve" classname="RegistracijaTest" time="0.649">
+    <failure message="TEST79 IME SADRZI BROJEVE - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST79 IME SADRZI BROJEVE - FAILED
+	at RegistracijaTest.test79RegistracijaNeuspesnaImeSadrziBrojeve(RegistracijaTest.java:1059)
+</failure>
+    <system-out><![CDATA[TEST79 IME SADRZI BROJEVE - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test80RegistracijaNeuspesnaPrezimeSadrziBrojeve" classname="RegistracijaTest" time="0.683">
+    <failure message="TEST80 PREZIME SADRZI BROJEVE - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST80 PREZIME SADRZI BROJEVE - FAILED
+	at RegistracijaTest.test80RegistracijaNeuspesnaPrezimeSadrziBrojeve(RegistracijaTest.java:1099)
+</failure>
+    <system-out><![CDATA[TEST80 PREZIME SADRZI BROJEVE - FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="test85RegistracijaNeuspesnaLozinkeNisuIste" classname="RegistracijaTest" time="0.671">
+    <failure message="TEST85 LOZINKE NISU ISTE - FAILED" type="java.lang.AssertionError">java.lang.AssertionError: TEST85 LOZINKE NISU ISTE - FAILED
+	at RegistracijaTest.test85RegistracijaNeuspesnaLozinkeNisuIste(RegistracijaTest.java:1019)
+</failure>
+    <system-out><![CDATA[TEST85 LOZINKE NISU ISTE - FAILED
+]]></system-out>
+  </testcase>
+</testsuite>
